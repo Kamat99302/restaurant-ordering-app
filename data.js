@@ -7,6 +7,7 @@ export const menuArray = [
         logo: "img/pizza.png",
         emoji: "🍕"
     },
+    {
         name: "Hamburger",
         ingredients: ["beef", " cheese", " lettuce"],
         price: 12,
