@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/header.jpg" class="headerImg" alt="the restaurant banner">
+        </header>
+        <hero class="container" id="menu"></hero>
+        <section class="container" id="order-container"></section>
+        <div class="modal" id="modal">
+            <div class="modal-inner" id="modal-inner">
+                <h2 class="form-title">Enter card details</h2>
+                <form id="informations">
+                    <input type="text" name="fullname" placeholder="Enter your name" id="name" required> 
+                    <input type="number" name="creditcardnumber" placeholder="Enter card number" required>
+                    <input type="number" name="ccv" placeholder="Enter CCV" required> 
+                    <button type="submit" class="btn pay-btn" id="pay-btn">Pay</button>
+                    
+                </form>
+            </div>
+        </div>
+        <div id="final"></div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
